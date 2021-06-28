@@ -52,7 +52,7 @@ async fn go() -> RES<()>
 
 async fn query_all_user_data() -> RES<Vec<Userdata>>
 {
-    let page_cnt = 2000;
+    let page_cnt = 400;
     let mut users = Vec::new();
     users.resize_with(page_cnt, || Vec::new());
     
