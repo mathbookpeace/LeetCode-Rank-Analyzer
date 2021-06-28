@@ -1,0 +1,6 @@
+
+leetcode_rank_analyzer/.vscode/
+
+*.csv
+
+leetcode_rank_analyzer/target/

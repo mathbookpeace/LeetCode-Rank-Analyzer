@@ -1,0 +1,15 @@
+[package]
+name = "leetcode_rank"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.7.1", features = ["full"] }
+reqwest = { version = "0.11.4", features = ["json"] }
+json = "0.12.4"
+simple-error = "0.2.3"
+futures = "0.3.15"
+csv = "1.1.6"
+serde = { version = "1.0.126", features = ["derive"] }
